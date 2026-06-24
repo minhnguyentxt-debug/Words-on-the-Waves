@@ -1,0 +1,16 @@
+{
+    "cargoList": [
+        {
+            "cargoID": "C001",
+            "cargoName": "Thùng Gỗ Cổ Đại",
+            "weight": 15.5,
+            "price": 100
+        },
+        {
+            "cargoID": "C002",
+            "cargoName": "Rương Kho Báu Sóng Thần",
+            "weight": 50.0,
+            "price": 500
+        }
+    ]
+}
