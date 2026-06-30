@@ -11,6 +11,22 @@
             "cargoName": "Rương Kho Báu Sóng Thần",
             "weight": 50.0,
             "price": 500
+        },
+        {
+            "cargoID": "C003",
+            "cargoName": "Second-hand Crate",
+            "crateName": "Second-hand Crate",
+            "weight": 20.0,
+            "price": 200,
+            "dropRates": [
+                {"genre": "Crime", "rate": 15.0},
+                {"genre": "Drama", "rate": 20.0},
+                {"genre": "Fact", "rate": 15.0},
+                {"genre": "Fantasy", "rate": 20.0},
+                {"genre": "Classic", "rate": 20.0},
+                {"genre": "Kids", "rate": 5.0},
+                {"genre": "Travel", "rate": 5.0}
+            ]
         }
     ]
 }

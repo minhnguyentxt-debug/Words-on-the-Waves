@@ -4,11 +4,13 @@ using UnityEngine;
 public class DataManager : MonoBehaviour
 {
     private string filePath;
+    public CargoListWrapper gameData { get; private set; }
 
     void Awake()
     {
         // Đường dẫn trỏ tới thư mục StreamingAssets
         filePath = Path.Combine(Application.streamingAssetsPath, "CargoConfig.json");
+        gameData = LoadCargoData();
     }
 
     // Hàm ĐỌC dữ liệu từ file JSON
